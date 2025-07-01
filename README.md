@@ -10,7 +10,7 @@ The assistant combines:
 * Information retrieval (weather, Wikipedia, currency conversion)
 * Multimedia playback and reminders
 
-The **frontend** is built using **Eel (HTML/CSS/JavaScript)** inspired by *Mr. Data Scientist* on YouTube.
+The **frontend** is built using **Eel (HTML/CSS/JavaScript)** by *Mr. Data Scientist* on YouTube.
 
 ---
 
