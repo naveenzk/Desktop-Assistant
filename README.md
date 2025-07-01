@@ -63,7 +63,9 @@ project_root/
 │   │   └── ...
 │
 ├── engine/
-│   └── command.py               # Contains the `speak()` function
+│   ├── command.py               # Contains the `speak()` function
+│   │ 
+│   └── features.py
 │
 ├── man.db                       # SQLite database storing commands
 │
