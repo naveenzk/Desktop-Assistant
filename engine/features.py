@@ -137,7 +137,7 @@ def tellDateTime():
     return f"{date}, {current_time}"
 
 # OpenWeatherMap API key
-WEATHER_API_KEY = "21de39bde37f6b6fe55ccac19a829edb"
+ # WEATHER_API_KEY = ""
 
 def getWeather(city):
     try:
@@ -229,7 +229,7 @@ def analyzeAndPredictCSV_live(file_name, model_name="knn"):
     except Exception as e:
         speak(f"An error occurred: {str(e)}")
 
-CURRENCY_API_KEY = "141b0b2e643c26e9d558a1df"
+#CURRENCY_API_KEY = ""
 BASE_URL = f"https://v6.exchangerate-api.com/v6/{CURRENCY_API_KEY}/latest/"
 
 def convert_currency(amount, from_currency, to_currency):
@@ -256,9 +256,10 @@ def convert_currency(amount, from_currency, to_currency):
 
 def sendWhatsAppMessage(name, message):
     contact_mapping = {
-        "aiman": "+923332059639",
-        "mustafa": "+923323705164",
-        "nazish": "+923340252187"
+        "aiman": "",
+        "mustafa": "",
+        "nazish": ""
+        # Add actual contacts here
     }
 
     number = contact_mapping.get(name.lower())
