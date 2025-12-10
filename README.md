@@ -1,6 +1,6 @@
 # 🧠 Man – Your Personal Desktop Assistant
 
-This project is a Python-based desktop voice assistant named **Man**, designed to perform a wide variety of tasks using natural language commands.
+This project is a Python-based desktop voice assistant named **MAN**, designed to perform a wide variety of tasks using natural language commands.
 
 The assistant combines:
 
@@ -179,4 +179,5 @@ You can:
 This project is for educational and personal use. You can modify and adapt it freely.
 
 ---
+
 
